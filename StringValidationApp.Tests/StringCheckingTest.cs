@@ -26,7 +26,7 @@ namespace StringValidationApp.Tests
         [TestMethod()]
         public void StringChecking_StringWithCorrectBrackets_ReturnTrue()
         {
-            string inputString = "Этот текст (строка) предназначен для тестирования [бы{стр}ой] проверки вхождения скобок {любых [из трех видов]}";
+            string inputString = "Р­С‚РѕС‚ С‚РµРєСЃС‚ (СЃС‚СЂРѕРєР°) РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅ РґР»СЏ С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ [Р±С‹{СЃС‚СЂ}РѕР№] РїСЂРѕРІРµСЂРєРё РІС…РѕР¶РґРµРЅРёСЏ СЃРєРѕР±РѕРє {Р»СЋР±С‹С… [РёР· С‚СЂРµС… РІРёРґРѕРІ]}";
 
             bool outputValue = Program.StringChecking(inputString);
 
