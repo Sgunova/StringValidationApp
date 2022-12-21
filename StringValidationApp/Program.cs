@@ -35,12 +35,12 @@ namespace StringValidationApp
                 inputText = args[0];
             else
             {
-                Console.WriteLine("Введите строку для анализа расположения ковычек: ");
+                Console.WriteLine("Введите строку для анализа расположения кавычек: ");
                 inputText = Console.ReadLine();
             }
 
             var result = StringChecking(inputText);
-            Console.WriteLine($"В строке {(result?"не ":string.Empty)}найдены ошибки в расположении и количестве ковычек.");
+            Console.WriteLine($"В строке {(result?"не ":string.Empty)}найдены ошибки в расположении и количестве кавычек.");
             
             return result?0:1;
         }
