@@ -17,7 +17,7 @@ namespace StringValidationApp.Tests
         [TestMethod()]
         public void StringChecking_StringWithoutBrackets_ReturnTrue()
         {
-            string inputString = string.Empty;
+            string inputString = "Каждый охотник желает знать, где сидит фазан.";
 
             bool outputValue = Program.StringChecking(inputString);
 
